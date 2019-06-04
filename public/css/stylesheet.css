@@ -1,0 +1,52 @@
+.container {
+  margin-top: 15px;
+  width: 600px"
+}
+.title1 {
+  font-size: 14px;
+  font-weight: bold; 
+  
+}
+
+.title2 {
+  font-size: 14px; 
+  color: rgb(222, 168, 33);
+}
+
+.title3 {
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.title4 {
+font-size: 14px;
+}
+
+.register-form {
+  text-align: left;
+  width: 380px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: rgb(222, 168, 33) solid 1px;
+  padding: 8px;
+}
+button {
+  height: 35px;
+}
+
+label {
+  font-weight: bold;
+}
+.findWinner {
+  margin: 20px;
+}
+
+.winnwer-name {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(235, 112, 17);
+}
+
+.winnwer-avatar {
+  font-size: 70px;
+}
