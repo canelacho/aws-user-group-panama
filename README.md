@@ -6,21 +6,23 @@
 
 NodeJS, Express, Server, Service, Example, VueJS, Docker
 
-To get this repo use command: `git clone https://github.com/canelacho/aws-user-group-panama.git` 
+To Clone this reposiroty use the command: `git clone https://github.com/canelacho/aws-user-group-panama.git` 
 
-Docker image: canelacho/meetup9
-Ports: 80 443
-To use docker image:
-1. Download image: `docker pull canelacho/meetup9`
+Docker image name: canelacho/meetup9
+
+Ports used for this docker image: 80 443
+
+To use this docker image: (Assuming you already have "docker" installed)
+1. Download the image: `docker pull canelacho/meetup9`
 2. Run a new container: `docker run -d -p 80:80 -443:443 -name testMeetup canelacho/meetup9`
 
-Do not forget to stop the container after use it to release your ports
-Feel free to use this material and enjoy it!
-
+Do not forget to stop the container after using it to release its ports, feel free to use this material and enjoy it!
 
 
 #### Event Jun 05 2019
 
 Auth: **Hernán Daniel Piña Landinez**
+
 **@canelacho**
+
 <hdpldaniel@gmail.com> 
