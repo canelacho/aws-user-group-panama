@@ -25,7 +25,9 @@ app.use(function(req, res, next) {
   next();
 })
 
-app.get('/health-check', (req, res) => res.sendStatus(200))
+app.get('/health-check', (req, res) => {
+  res.sendStatus(200)
+})
 
 app.get('/', (req, res) => {
   res.sendFile('/index.html')
