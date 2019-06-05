@@ -14,7 +14,7 @@ Ports used for this docker image: 80 443
 
 To use this docker image: (Assuming you already have "docker" installed)
 1. Download the image: `docker pull canelacho/meetup9`
-2. Run a new container: `docker run -d -p 80:80 -443:443 -name testMeetup canelacho/meetup9`
+2. Run a new container: `docker run -d -p 80:80 -p 443:443 --name testMeetup canelacho/meetup9`
 
 Do not forget to stop the container after using it to release its ports, feel free to use this material and enjoy it!
 
