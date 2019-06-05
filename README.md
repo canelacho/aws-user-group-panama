@@ -10,7 +10,7 @@ To Clone this reposiroty use the command: `git clone https://github.com/canelach
 
 Docker image name: canelacho/meetup9
 
-Ports used for this docker image: 80 443
+Ports used for this docker image: 80
 
 To use this docker image: (Assuming you already have "docker" installed)
 1. Download the image: `docker pull canelacho/meetup9`
